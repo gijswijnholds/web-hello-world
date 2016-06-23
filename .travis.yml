@@ -1,10 +1,10 @@
 language: java
 jdk:
-  - oraclejdk7
+- oraclejdk7
 deploy:
   provider: heroku
   api_key:
-    secure: Nbg11pUhJPjRf4rxw1wBMiTm7LnT+5ZCH6baNNXsdzne8R9Q6cHu2fqfWBq/4B799HJw8onGh0bhwtiwXgUhxpggwOn7354J+QB//8RTYlFoGVl6Z/XwSMaMxrf8vUOFXG7ckReVeS6MOe5x1SPCIWHOEjPZteZlGl/+XFHANfA=
-  app: web-hello-world
+    secure: BTrkwrHhBQjsd4YZ6wzzwl8y1QWTNWdviTSIRbBNB+TGC8SE4d/BBaiAfJ9EFKv68tZFCSgIpNMjhUKuAtSVFVEVTwmPwpfAX0CSPIIveDwEQu8S1l/1aC2IOF8o3d5FN3MfgipS0doY2YlORz1NE0H6UDUdtILQ4C/XsctH1nO8MXUCfzSvYaVK/Iw22m2IAkWBHquO1Z/GngikSayCK6zgFsbgsBFxFo0Qbus0EoF4qRdasUxOA6eGTF4E2OcMFnot+8jtxuNUjvqs0vV/VMrW42FU+6UoENYsGlpAvNgwuBIbTTcv4eZBS/Bk4uLtYg1LqCoJUgOPIY783P4EViUkiYyhFE15FTe0lGXG+p+UMqnfPwHiqTAFrwXGVj3A7Rj3W1ODoXi+90A5tVCC1oPzrtsOUuds9lOrUGIA6DT4aBSVc0f6lyUVUWFxQgpOu9+qazbYCss1JQANQ1O6n2pojT81Q1JZFMvBxUXoMbIJiyszXQeCyc8Qy9jvsYT/p/ocjdFZUMkJtZIho33ZIXtCQA+tJ+wn/Iv+RMKiEWOfuWQKbYi2DGRozDICnxphBfXdNVwucqhLIUddRbFkU/KM4WHf60Q3Q079Rs+6OJ56GTfmtiRnBZr42NL/YZFpzq9dMYjhUOKBt2zWMf21WC6q5nUjbPNMkq5p8KgEiTk=
+  app: web-hello-world-gijs
   on:
-    repo: chrissearle/web-hello-world
+    repo: gijswijnholds/web-hello-world
